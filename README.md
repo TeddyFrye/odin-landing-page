@@ -1,0 +1,1 @@
+This is the assignment website for the Odin Project's Flexbox lesson, titled ["Landing Page"](https://www.theodinproject.com/lessons/foundations-landing-page)
