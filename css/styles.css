@@ -1,14 +1,30 @@
-.top-header-left{
-color: red;
-font-style:italic;
-background: darkblue;
-/*Enter flexbox*/
-flex: 1;}
+/*HEADER STYLING*/
 
-.top-header-left a:link { color: #70DB93; }
-.top-header-left a:visited { color: #70DB93; }
-.top-header-left a:hover { color: #70DB93; }
-.top-header-left a:active { color: #70DB93; }
+.top-header{
+    background: darkblue;
+    /*Enter flexbox*/
+    flex: 1;
+}
+.header-left{
+    color: red;
+    font-style:italic;
+}
+
+.top-header .link a:link { color:white; }
+.top-header .link a:visited { color: grey; }
+.top-header .link a:hover { color: aqua }
+.top-header .link a:active { color:darkslategray; }
+
+
+/*MAIN STYLING*/
+
+.main-header{
+    background-color: #1F2937;
+    background-size:auto;
+    /*Flexbox*/
+    flex: 1 1 auto;
+    align-items:flex-end;
+}
 
 .main-logo{
     /*Image Source and Size*/
@@ -16,19 +32,40 @@ flex: 1;}
     background-size:cover;
     width: 300px;
     height: 280px;
-
     padding: 200px, 100px;
     margin: 100px;
     background-repeat: no-repeat;
     background-position:center;
     background-color: grey;
-    
+
     /*Border Style*/
     border: 5px solid black;
     border-top-width:0px;
     border-left-width:0px;
-    
-    /*Flexbox*/
-    flex: 1 1 auto;
+}
 
+.sub-header1{
+    background: skyblue;
+    flex: 1 1 0;
+}
+
+
+/*Quote Box*/
+
+.quote{
+    font-style:light italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    color:#1F2937;
+    border: 2px black solid;
+}
+
+.attributed{
+    font-style: light italic bold;
+    font-size: 20px;
+}
+
+.quotebox{
+    flex: 1 1 0;
+    background-color: #E5E7EB;
 }
