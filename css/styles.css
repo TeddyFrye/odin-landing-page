@@ -10,7 +10,7 @@
 .header-left{
     color: red;
     font-style:italic;
-    font-size: 20px;
+    font-size: 30px;
 }
 .top-links-right{
     display: flex;
@@ -45,6 +45,33 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
+.description1{
+    color: white;
+    font-size: 15px;
+}
+
+/*BUTTON DESIGN*/
+a.sign-up{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color: #3882F6;
+    text-align:center; 
+    transition: all 0.2s;
+}
+a.sign-up:hover{
+    color: white;
+    background-color:#235096;
+}
+
+/*LOGO DESIGN*/
 .main-logo{
     /*Image Source and Size*/
     background-image: url("https://i.imgur.com/QuL3Rmt.png");
@@ -53,6 +80,8 @@
     height: 280px;
     padding: 200px, 100px;
     margin: 100px;
+    margin-left: auto;
+    margin-bottom: auto;
     background-repeat: no-repeat;
     background-position:center;
     background-color: grey;
@@ -64,7 +93,7 @@
 
     /*FLEXBOX*/
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 /*SUB-HEADER STYLING*/
@@ -89,6 +118,9 @@
     max-width: 200px;
     max-height: 200px;
 
+}
+.link{
+    font-size:20px;
 }
 
 .first{
