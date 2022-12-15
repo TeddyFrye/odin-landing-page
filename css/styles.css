@@ -1,15 +1,28 @@
+*{
+    margin: 0px;
+}
+
 /*HEADER STYLING*/
 
 .top-header{
     background: darkblue;
-    /*Enter flexbox*/
-    flex: 1;
 }
 .header-left{
     color: red;
     font-style:italic;
+    font-size: 20px;
+}
+.top-links-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
+.link{
+    display: flex;
+    margin: 5px;
+    
+}
 .top-header .link a:link { color:white; }
 .top-header .link a:visited { color: grey; }
 .top-header .link a:hover { color: aqua }
@@ -24,6 +37,12 @@
     /*Flexbox*/
     flex: 1 1 auto;
     align-items:flex-end;
+}
+
+.title1{
+    color: white;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .main-logo{
@@ -42,6 +61,10 @@
     border: 5px solid black;
     border-top-width:0px;
     border-left-width:0px;
+
+    /*FLEXBOX*/
+    display: flex;
+    justify-content: flex-end;
 }
 
 /*SUB-HEADER STYLING*/
@@ -57,14 +80,15 @@
 .box{
     display: flex;
     flex-flow: column;
-    max-width:200px;
-    height: 300px;
+    max-width:300px;
+    height: 400px;
     border: 2px solid darkblue;
 }
 
 .img{
     max-width: 200px;
-    max-height: 300px;
+    max-height: 200px;
+
 }
 
 .first{
@@ -72,18 +96,14 @@
 }
 
 .second{
-    background-image: url("");
-    background-size: cover;
+    
 }
 
 .third{
-    background-image: url("");
-    background-size: cover;
+   
 }
 
 .fourth{
-    background-image: url("");
-    background-size: cover;
 }
 
 /*QUOTE BOX*/
